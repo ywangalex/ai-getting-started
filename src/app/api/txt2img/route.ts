@@ -4,6 +4,8 @@ import { NextResponse } from "next/server";
 
 dotenv.config({ path: `.env.local` });
 
+clip
+
 export async function POST(request: Request) {
   const { prompt } = await request.json();
   const replicate = new Replicate({
